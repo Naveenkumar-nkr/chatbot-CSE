@@ -1,0 +1,403 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "csepro1",
+        "patterns": [
+            "What department should I choose if I want to study computer science?",
+            "What department should I choose",
+            "Computer Science and Engineering",
+            "CSE",
+            "Sona",
+            " What department is a good fit?","Which department is a good fit?",
+            "What is CSE?",
+            "What does CSE focus on?",
+            "Why should I choose CSE at Sona College of Technology?"
+        ],
+        "responses": [
+            "Sona College of Technology's CSE department offers excellent education and research opportunities in computer science and engineering to help you succeed!",
+            "Elevate your career prospects in computer science and engineering with Sona College of Technology's CSE department, offering top-notch education and research opportunities!",
+            "Experience the best of both worlds - exceptional education and research facilities in the field of computer science and engineering, with Sona College of Technology's CSE department!"
+      
+        ]
+      },
+      {
+        "tag": "cse_vs_ece",
+        "patterns": [
+          "What is the difference between CSE and ECE?",
+          "Which one is better, CSE or ECE?","CSE and ECE",
+          "CSE vs ECE"
+        ],
+        "responses": [
+            "CSE at Sona College of Technology focuses on programming, software development, and computer systems, providing a strong foundation for a career in technology. The department also offers related courses in ECE, which focuses on electronics, communication systems, and hardware design."
+        ]
+      },
+      {
+        "tag": "cse_vs_eee",
+        "patterns": [
+          "What is the difference between CSE and EEE?",
+          "Which one is better, CSE or EEE?","CSE and EEE",
+          "CSE vs EEE"
+        ],
+        "responses": [
+            "The CSE department at Sona College of Technology offers a strong foundation in programming, software development, and computer systems, preparing students for successful careers in the technology industry. The department also provides related courses in EEE (Electrical and Electronics Engineering), which focuses on electrical systems, power generation, and electronics design."
+        ]
+      },
+      {
+        "tag": "cse_vs_mech",
+        "patterns": [
+          "What is the difference between CSE and Mechanical Engineering?",
+          "Which one is better, CSE or Mechanical Engineering?","CSE and Mech","CSE and Mechanical","CSE vs Mechanical",
+          "CSE vs Mech"
+        ],
+        "responses": [
+            "CSE at Sona College of Technology focuses on programming, software development, and computer systems. The department offers a strong foundation in these areas for students interested in a career in the technology industry."
+        ]
+      },
+      {
+        "tag": "cse_vs_it",
+        "patterns": [
+          "What is the difference between CSE and IT?",
+          "Which one is better, CSE or IT?","CSE and IT",
+          "CSE vs IT"
+        ],
+        "responses": [
+            "The CSE department at Sona College of Technology to focus on programming, software development, and computer systems. The department also covers related areas like Information Technology, which focuses on managing and using information systems."
+        ]
+      },
+      {
+        "tag": "cse_vs_csd",
+        "patterns": [
+          "What is the difference between CSE and Computer Science and Design?",
+          "Which one is better, CSE or Computer Science and Design?","CSE and CSD",
+          "CSE vs CSD"
+        ],
+        "responses": [
+          "CSE (Computer Science Engineering) is focused on programming, software development, and computer systems, while Computer Science and Design is focused on designing and developing digital products, such as websites and mobile apps."
+        ]
+      },
+      {
+        "tag": "cse_vs_ft",
+        "patterns": [
+          "What is the difference between CSE and Fashion Technology?",
+          "Which one is better, CSE or Fashion Technology?","CSE and FT",
+          "CSE vs FT"
+        ],
+        "responses": [
+          "CSE (Computer Science Engineering) is focused on programming, software development, and computer systems, while Fashion Technology is focused on designing and producing clothing and textiles."
+        ]
+      },
+      {
+        "tag": "cse_vs_bme",
+        "patterns": [
+        "What is the difference between CSE and Biomedical Engineering?",
+        "Which one is better, CSE or Biomedical Engineering?","CSE and BME",
+        "CSE vs BME"
+        ],
+        "responses": [
+        "CSE (Computer Science Engineering) is focused on programming, software development, and computer systems, while Biomedical Engineering is focused on applying engineering principles to solve problems in biology and medicine, such as developing medical devices and imaging systems."
+        ]
+        },
+        {
+            "tag": "cse_vs_civil",
+            "patterns": [
+            "What is the difference between CSE and Civil Engineering?",
+            "Which one is better, CSE or Civil Engineering?","CSE and CIVIL",
+            "CSE vs Civil"
+            ],
+            "responses": [
+            "CSE (Computer Science Engineering) is focused on programming, software development, and computer systems, while Civil Engineering is focused on designing and building infrastructure, such as buildings, bridges, and transportation systems."
+            ]
+            },
+            {
+                "tag": "cse_vs_ai",
+                "patterns": [
+                  "What is the difference between CSE and AI?",
+                  "Which one is better, CSE or AI?","CSE and AI",
+                  "CSE vs AI"
+                ],
+                "responses": [
+                    "CSE at Sona College of Technology covers programming, software development, and computer systems. It offers a strong foundation for a career in the tech industry and related fields like AI. Students gain valuable knowledge and skills to pursue various career paths in the technology field."
+                ]
+              },
+
+      {
+  "tag": "cybersecurity",
+  "patterns": [
+    "I'm interested in studying cybersecurity","Cybersecurity",
+    "What department would be a good fit for studying cybersecurity?",
+    "Which department specializes in cybersecurity?","What department specializes in cybersecurity?"
+  ],
+  "responses": [
+    "The CSE department at Sona College of Technology would be a great fit for you if you're interested in specializing in cybersecurity. They also cover other important topics like data privacy, computer networks, and cryptography in their teaching and research."
+  ]
+},
+{
+    "tag": "robotics",
+    "patterns": [
+      "What department should I choose if I want to study robotics?","Robotics","Robotic",
+      "Which department specializes in robotics?",
+      "What department specializes in robotics?",
+      "I am interested in studying robotics"
+    ],
+    "responses": [
+      "The CSE department at Sona College of Technology is perfect for those who want to study robotics. They teach courses in artificial intelligence, machine learning, and computer vision which are all relevant to the field of robotics."
+    ]
+  },
+  {
+    "tag": "data_science",
+    "patterns": [
+      "What department should I choose if I want to study data science?","Data Science",
+      "Which department specializes in data science?","What department specializes in data science?",
+      "I am interested in studying data science"
+    ],
+    "responses": [
+      "The CSE department at Sona College of Technology is ideal for those who want to study data science. They offer courses in various related topics such as data analysis, data mining, and machine learning."
+    ]
+  },
+  {
+    "tag": "software_development",
+    "patterns": [
+      "What department should I choose if I want to study software development?","Software development","Software","development",
+      "Which department specializes in software development?","What department specializes in software development?",
+      "I am interested in studying software development"
+    ],
+    "responses": [
+      "The CSE department at Sona College of Technology is the perfect option for studying software development. They provide courses in programming, software engineering, and other necessary topics for a successful career in this field."
+    ]
+  },
+  {
+    "tag": "artificial_intelligence",
+    "patterns": [
+      "What department should I choose if I want to study artificial intelligence?","AI",
+      "Which department specializes in artificial intelligence?","CSE vs AI","CSE and AI",
+      "I am interested in studying artificial intelligence","What department specializes in artificial intelligence?"
+    ],
+    "responses": [
+      "The CSE department at Sona College of Technology would be the best choice for studying artificial intelligence. The department offers courses in machine learning, natural language processing, computer vision, and other related topics that are essential for a career in AI."
+    ]
+  },
+  {
+    "tag": "cse_student_organizations",
+    "patterns": [
+      "What kind of student organizations are available in the CSE department at Sona College of Technology?",
+      "Are there any student organizations in the CSE department?","Student organization","Student Organization",
+      "Can you tell me about the student organizations in the CSE department?"
+    ],
+    "responses": [
+      "The CSE department at Sona College of Technology has a variety of student organizations, such as coding clubs, hackathons, and tech conferences, that offer students opportunities to network, collaborate, and build their skills. It's a great way to get involved and enhance your college experience."
+    ]
+  },
+  {
+    "tag": "cse_research_projects",
+    "patterns": [
+      "What kind of research projects are available to CSE students at Sona College of Technology?","research","Projects",
+      "What are the research opportunities for CSE students?","Project",
+      "Can you tell me about the research projects in the CSE department?"
+    ],
+    "responses": [
+      "CSE students at Sona College of Technology can choose from various research projects related to computer science and engineering. The topics may include AI, machine learning, data analytics, and cybersecurity. The projects involve developing software, designing algorithms, or analyzing data. The available research projects can change each year based on faculty research interests and funding."
+    ]
+  },
+  {
+    "tag": "cse_job_prospects",
+    "patterns": [
+      "What kind of job prospects are available to CSE graduates from Sona College of Technology?","CSE graduates","Job availability",
+      "What are the job opportunities for CSE graduates?","What are the job opportunities for CSE?","Jobs","Job",
+      "Can you tell me about the job prospects for CSE graduates?"
+    ],
+    "responses": [
+      "CSE graduates from Sona College of Technology have a wide range of job prospects in the technology industry, including software development, web development, data analysis, cybersecurity, artificial intelligence, and more. The demand for CSE graduates is high, and salaries are typically competitive."
+    ]
+  },
+  {
+    "tag": "internships",
+    "patterns": [
+    "What kind of internships are available to CSE students at Sona College of Technology?","Internships","Internship",
+    "Where can CSE students at Sona College of Technology find internships?","what about Internships",
+    "What companies offer internships for CSE students at Sona College of Technology?"
+    ],
+    "responses": [
+    "CSE students at Sona College of Technology can get internships in computer science and engineering with local or international companies. This reflects the quality of education the college provides. Graduates are in high demand due to the college's strong reputation."
+    ]
+    },  
+
+        {
+            "tag": "cse_support",
+            "patterns": [
+            "What is the goal of the CSE department at Sona College of Technology?","What is the goal","Goal",
+            "What does the CSE department at Sona College of Technology prioritize?",
+            "Why should I choose the CSE department at Sona College of Technology?"
+            ],
+            "responses": [
+            "The CSE department at Sona College of Technology aims to provide students with a strong foundation in programming, software development, and computer systems, preparing them for successful careers in the technology industry. The department also prioritizes exploring new research areas and interdisciplinary fields, building relationships with industries and communities, and offering courses in related areas such as AI (Artificial Intelligence) to make a positive impact in the field of technology."
+            ]
+            },
+      {
+        "tag": "program_offered",
+        "patterns": [
+        "What are the undergraduate programs offered in CSE at Sona College of Technology?","What are the undergraduate programs offered in CSE","What are the postgraduate programs offered in CSE",
+        "What are the postgraduate programs offered in CSE at Sona College of Technology?","What are the programs offered","programs offered"
+        ],
+        "responses": [
+        "Sona College of Technology offers three undergraduate programs in CSE: B.E. in Computer Science and Engineering, B.E. in CSE (Artificial Intelligence & Machine Learning), and B.E. in Computer Science and Design. In addition, they offer two postgraduate programs: M.E. in Computer Science & Engineering and M.Tech in Data Science."
+        ]
+        },
+
+        {
+            "tag": "cse_vision_mission",
+            "patterns": [
+            "What is the vision of the CSE department at Sona College of Technology?","Vision","Mission","What are the vision and mission",
+            "What is the mission of the CSE department at Sona College of Technology?"
+            ],
+            "responses": [
+            "The vision of the CSE department at Sona College of Technology is to be a leader in Computer Science and Engineering education and to produce globally competent professionals with expertise in software development, research, and ethical values. The mission of the department includes providing courses on cutting-edge technology, creating a supportive environment for faculty research, offering experiential learning, promoting problem-solving and team-building skills, encouraging lifelong learning and social responsibility, and providing continuing education programs in emerging areas."
+            ]
+            },
+
+            {
+                "tag": "program_objectives",
+                "patterns": [
+                "What are the program objectives of the CSE program?","Program objectives","Objectives"
+                ],
+                "responses": [
+                "The CSE program at Sona College of Technology aims to prepare graduates for diverse computer-related career paths, effective communication, and lifelong learning for personal and organizational growth."
+                ]
+                },
+
+                {
+                    "tag": "program_specific_outcomes",
+                    "patterns": [
+                    "What are the program specific outcomes of the CSE program?","Program specific outcome"
+                    ],
+                    "responses": [
+                    "The Programme Specific Outcome of CSE at Sona College of Technology includes the ability to develop software projects using standard practices, create complex computer programs related to algorithms and data analytics, and innovate solutions to existing problems."
+                    ]
+                    },
+
+                    {
+                        "tag": "program_outcomes",
+                        "patterns": [
+                        "What are the program outcomes of the CSE program?","Program outcome","Outcome"
+                        ],
+                        "responses": [
+                        "The CSE program outcomes include equipping students with skills to apply computer science principles to real-world problems, conduct investigations of complex problems, and work effectively in teams."
+                        ]
+                        },
+            
+                        {
+                            "tag": "faculty_info",
+                            "patterns": [
+                            "What about faculty","faculty information","faculty"
+                            ],
+                            "responses": [
+                            "The faculty of the Department of Computer Science and Engineering at Sona College of Technology comprises experienced and qualified professors, assistant professors, and lecturers who are dedicated to providing high-quality education to students and engaging in innovative research in their respective fields. "
+                            ]
+                            },
+
+              {
+                            "tag": "Lab_facility",
+                            "patterns": [
+                            "What about Lab","Lab facility","Lab"
+                            ],
+                            "responses": [
+                            "The Department of CSE provides well-equipped computing facilities and advanced software tools to cater to the needs of students and faculty.  "
+                            ]
+                            }, 
+                            {
+                                "tag": "Events",
+                                "patterns": [
+                                "What about events","Event","Events"
+                                ],
+                                "responses": [
+                                "The Computer Science and Engineering department at Sona College of Technology conducts various events like workshops, seminars, conferences, and guest lectures to enhance the knowledge and skills of the students. "
+                                ]
+                                }, 
+            {
+                                "tag": "Projects",
+                                "patterns": [
+                                "What about Projects","Projects","Project"
+                                ],
+                                "responses": [
+                                "The link https://www.sonatech.ac.in/cse/sona-projects-cse.php is about computer science and engineering projects undertaken by Sona College of Technology, covering fields such as AI, ML, Big Data, and IoT. Each project is briefly described with the names of the students, project guide, and year of completion. There are links to publications and patents, as well as information on funding agencies that have supported the projects."
+                                ]
+                                }, 
+                                {
+                                "tag": "Placement&internships",
+                                "patterns": [
+                                "What about Placements","What about Internships","Placements","Internships"
+                                ],
+                                "responses": [
+                                "The Computer Science and Engineering department at Sona College of Technology provides 100% placement and internship opportunities for its students in the past few years. The department offers practical training and exposure to the latest technologies to equip students with necessary skills and knowledge to succeed in the industry."
+                                ]
+                                }, 
+                                {
+                                    "tag": "Achievements",
+                                    "patterns": [
+                                    "What about Achievements","Achievements","Achievement"
+                                    ],
+                                    "responses": [
+                                    "The Department of Computer Science and Engineering at Sona College of Technology has achieved academic excellence, faculty recognition, student awards, industry collaborations, research grants, and successful alumni stories. "
+                                    ]
+                                    },
+                                    {
+                                        "tag": "Industry_tieups",
+                                        "patterns": [
+                                        "What about Industry Tieups","Industry Tieups"
+                                        ],
+                                        "responses": [
+                                        "The Computer Science and Engineering department at Sona College of Technology has established strong industry tie-ups and collaborations, providing valuable practical exposure and experience for students.This is an excellent opportunity for students to gain an edge in the industry and establish connections while pursuing their studies."
+                                        ]
+                                        },
+                                        
+                                        {
+                                            "tag": "Innovations",
+                                            "patterns": [
+                                            "Teaching innovations","Innovation"
+                                            ],
+                                            "responses": [
+                                            "The Computer Science and Engineering department at Sona College of Technology has introduced various teaching and learning innovations such as online courses, industry mentorship, and advanced technology like MOODLE, Lecture Capturing System, and Blackboard. These initiatives offer students a unique and effective learning experience."
+                                            ]
+                                            },
+                                            {
+                                                "tag": "Library",
+                                                "patterns": [
+                                                "Library facility","About library","Libarary"
+                                                ],
+                                                "responses": [
+                                                "The CSE department at Sona College of Technology has a well-equipped library with over 8000 books and online resources related to computer science and engineering. The library provides students with a wide range of resources to enhance their learning and research capabilities. "
+                                                ]
+                                                }
+
+    ]
+  }
